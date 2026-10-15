@@ -1061,7 +1061,7 @@ QUESTIONS_DB = {
 "prompt": "تتصف المناطق الداخلية البعيدة عن المسطحات المائية في فصل الصيف بأنها:",
 "options": ["معتدلة الحرارة طوال النهار", "شديدة الحرارة صيفاً خاصة في النهار", "شديدة البرودة ليلاً صيفاً", "تسقط بها أمطار ثلجية كثيفة"],
 "answer": "شديدة الحرارة صيفاً خاصة في النهار"
-}
+},
 {
         "id": 151,
         "type": "true_false",
@@ -2148,7 +2148,7 @@ MAIN_TEMPLATE = """
        
         <form method="POST">
             <input type="hidden" name="action" value="generate">
-            <div class="section-title">اختبار الدرس الثاني دراسات اجتماعية تانية اعدادي الترم الاول     </div>
+            <div class="section-title">اختبار الدرس الثالث دراسات اجتماعية تانية اعدادي الترم الاول     </div>
             <div class="levels-container">
                 <label class="level-btn {% if level == 'مبتدئ' %}active{% endif %}">
                     <input type="radio" name="level" value="مبتدئ" {% if level == 'مبتدئ' %}checked{% endif %} onchange="updateActive(this)"> مبتدئ
