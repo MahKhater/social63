@@ -2148,7 +2148,7 @@ MAIN_TEMPLATE = """
        
         <form method="POST">
             <input type="hidden" name="action" value="generate">
-            <div class="section-title">اختبار الدرس الثالث دراسات اجتماعية تانية اعدادي الترم الاول     </div>
+            <div class="section-title">اختبار الدرس الثالث دراسات اجتماعية 6 ابتدائي الترم الاول     </div>
             <div class="levels-container">
                 <label class="level-btn {% if level == 'مبتدئ' %}active{% endif %}">
                     <input type="radio" name="level" value="مبتدئ" {% if level == 'مبتدئ' %}checked{% endif %} onchange="updateActive(this)"> مبتدئ
